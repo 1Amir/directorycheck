@@ -1,5 +1,5 @@
 import os
-root = "/home"
+root = "/root"
 path = os.path.join(root, "directory")
 for path, subdirs,files in os.walk(root):
     for name in files:
